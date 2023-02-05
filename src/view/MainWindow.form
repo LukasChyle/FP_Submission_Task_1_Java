@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="controller.MainWindow">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="19" column-count="13" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="1245" height="721"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="a5c19">
+        <constraints>
+          <grid row="1" column="0" row-span="16" col-span="12" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b437" class="javax.swing.JList" binding="displayList">
+            <constraints/>
+            <properties>
+              <font name="Monospaced" size="14" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="812a7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select list to show:"/>
+        </properties>
+      </component>
+      <component id="8398" class="javax.swing.JComboBox" binding="listOfCBox">
+        <constraints>
+          <grid row="4" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1a472" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sort after:"/>
+        </properties>
+      </component>
+      <component id="df259" class="javax.swing.JComboBox" binding="sortAfterCBox">
+        <constraints>
+          <grid row="6" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4d4b9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Brand:"/>
+        </properties>
+      </component>
+      <component id="42430" class="javax.swing.JComboBox" binding="brandsCBox">
+        <constraints>
+          <grid row="8" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="52e85" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Colour:"/>
+        </properties>
+      </component>
+      <component id="2c52b" class="javax.swing.JComboBox" binding="coloursCBox">
+        <constraints>
+          <grid row="10" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4d664" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Size:"/>
+        </properties>
+      </component>
+      <component id="95ec0" class="javax.swing.JComboBox" binding="sizesCBox">
+        <constraints>
+          <grid row="12" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="99c82" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Category:"/>
+        </properties>
+      </component>
+      <component id="acb8e" class="javax.swing.JComboBox" binding="categoriesCBox">
+        <constraints>
+          <grid row="14" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ec126" class="javax.swing.JButton" binding="resetBut">
+        <constraints>
+          <grid row="16" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <component id="ddbf0" class="javax.swing.JButton" binding="refreshBut">
+        <constraints>
+          <grid row="15" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Refresh"/>
+        </properties>
+      </component>
+      <component id="8d7b3" class="javax.swing.JButton" binding="newArticleBut">
+        <constraints>
+          <grid row="18" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Create Article"/>
+        </properties>
+      </component>
+      <component id="a240c" class="javax.swing.JButton" binding="putCatBut">
+        <constraints>
+          <grid row="18" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Put In Category"/>
+        </properties>
+      </component>
+      <component id="5c0ad" class="javax.swing.JButton" binding="modifyBut">
+        <constraints>
+          <grid row="18" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Modify"/>
+        </properties>
+      </component>
+      <component id="97217" class="javax.swing.JButton" binding="deleteBut">
+        <constraints>
+          <grid row="18" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete Selected"/>
+        </properties>
+      </component>
+      <component id="3346c" class="javax.swing.JButton" binding="logoutBut">
+        <constraints>
+          <grid row="18" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Logout"/>
+        </properties>
+      </component>
+      <component id="df00" class="javax.swing.JLabel" binding="infoLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="14" style="1"/>
+          <text value="Info"/>
+        </properties>
+      </component>
+      <hspacer id="e7034">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="25837">
+        <constraints>
+          <grid row="18" column="11" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="83796" class="javax.swing.JTextField" binding="searchTF">
+        <constraints>
+          <grid row="1" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="10" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c7244" class="javax.swing.JButton" binding="searchBut">
+        <constraints>
+          <grid row="2" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Search model"/>
+        </properties>
+      </component>
+      <component id="dc085" class="javax.swing.JLabel" binding="sumLabel">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <text value="sum"/>
+        </properties>
+      </component>
+      <component id="6963" class="javax.swing.JButton" binding="buyBut">
+        <constraints>
+          <grid row="18" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Buy"/>
+        </properties>
+      </component>
+      <component id="2d259" class="javax.swing.JButton" binding="openBut">
+        <constraints>
+          <grid row="18" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Open Selected"/>
+        </properties>
+      </component>
+      <component id="880bc" class="javax.swing.JButton" binding="newOrderBut">
+        <constraints>
+          <grid row="18" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Create Order"/>
+        </properties>
+      </component>
+      <component id="fc099" class="javax.swing.JSpinner" binding="quantitySpinner" custom-create="true">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusCycleRoot value="false"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="a662" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quantity:"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
