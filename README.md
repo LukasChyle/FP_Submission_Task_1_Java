@@ -2,7 +2,7 @@
 
 Simple simulation of a webbshop for shoes,
 the customer can login to create a order and buy shoes.
-This program is made to communicates with a seperate Database.
+This program is made to communicates with a Database.
 
 The program does not take access levels into account,
 to more easily present all functions.
